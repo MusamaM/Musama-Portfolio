@@ -626,7 +626,6 @@ footer.footer p{
 .m-btn,
 a.m-btn{
 	padding: 8px 12px;
-	color: #fff;
 	cursor: pointer;
 	border: 2px solid transparent;
 	display: inline-block;
@@ -647,7 +646,7 @@ a.m-btn{
 .m-btn:hover,
 a.m-btn:hover{
 	color: #fff;
-	background-color: #222;
+	background: #222;
 }
 /* medium */
 .m-btn.m-btn-medium{
@@ -669,11 +668,12 @@ a.m-btn:hover{
 /* border */
 .m-btn.m-btn-border{
 	background: transparent;
-	border-color: #222;
-	color: #222;
+	border-color: #007bff;
+	color: #007bff;
 }
 .m-btn.m-btn-border:hover{
-	background: #222;
+	background: #007bff;
+	border-color: #007bff;
 	color: #ffffff;
 }
 /* radius */
